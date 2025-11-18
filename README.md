@@ -16,7 +16,7 @@ The goal was to create a "digital twin" of a social system—one that is complex
 
 ## Key Emergent Findings & Insights
 
-Through rigorous simulation and out-of-sample validation against real-world data, the `Herdless` engine uncovered several key properties of information cascades:
+Through rigorous simulation and out-of-sample validation against real-world data, the engine uncovered several key properties of information cascades:
 
 #### 1. The "Network Diffusion Ceiling"
 The simulation consistently revealed that **peer-to-peer diffusion alone is insufficient to create large-scale viral cascades.** Information spreads locally but becomes trapped within community clusters, failing to bridge to the wider network. This saturation point, termed the "Network Diffusion Ceiling," is an emergent property of networked systems and explains why most information fails to go viral.
@@ -191,7 +191,7 @@ python calibrate_model.py
 
 ## Code Structure Overview
 
-*   `Herdless/`: The main source code library.
+*   `/`: The main source code library.
     *   `__init__.py`: Makes the directory a Python package and exposes the public API.
     *   `api.py`: Provides the top-level `run()` function for easy library usage.
     *   `agent.py`: Defines the agent class hierarchy and their belief update logic.
@@ -206,4 +206,4 @@ python calibrate_model.py
 -->
 ## Conclusion
 
-Project Herdless is a comprehensive computer science project that addresses challenges in **high-performance computing, algorithmic design, software architecture, and data engineering**. By building a scalable and empirically-grounded simulation engine, it provides a powerful tool for scientific inquiry while demonstrating the practical application of core computer science principles to complex problems.
+This research is a comprehensive computer science project that addresses challenges in **high-performance computing, algorithmic design, software architecture, and data engineering**. By building a scalable and empirically-grounded simulation engine, it provides a powerful tool for scientific inquiry while demonstrating the practical application of core computer science principles to complex problems.
