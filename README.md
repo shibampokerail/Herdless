@@ -1,6 +1,6 @@
-# Herdless: A High-Performance Agent-Based Modeling Engine
+# Diffusioin Ceiling in High-Performance Agent-Based Modeling 
 
-`Herdless` is not just a simulation, but a scalable, high-performance computational framework for modeling information cascades in complex networks. This project tackles core computer science challenges in algorithmic efficiency, software architecture, and data-driven modeling to build a robust tool for studying emergent social phenomena.
+This is not just a simulation, but a scalable, high-performance computational framework for modeling information cascades in complex networks. This project tackles core computer science challenges in algorithmic efficiency, software architecture, and data-driven modeling to build a robust tool for studying emergent social phenomena.
 
 The engine's architecture is designed to overcome the limitations of traditional models by integrating a **hybrid Python/C++ simulation core**, **procedural network generation**, an **object-oriented agent hierarchy**, and a **rigorous data-driven calibration pipeline**. It demonstrates how computational techniques can be applied to derive causal insights from complex systems.
 
@@ -157,7 +157,7 @@ elif agent_type == "empirical":
 # ... etc.
 self.agents[node_id] = agent
 ```
-
+<!--
 ## How to Run the Simulation
 
 **Prerequisites:**
@@ -203,7 +203,7 @@ python calibrate_model.py
 *   `calibrate_model.py`: An executable script for running the parameter optimization pipeline against empirical data.
 *   `pre-implementation analysis.py`: Data engineering script to extract parameters from raw data.
 *   `analyze.py`: A script for post-simulation analysis and visualization.
-
+-->
 ## Conclusion
 
 Project Herdless is a comprehensive computer science project that addresses challenges in **high-performance computing, algorithmic design, software architecture, and data engineering**. By building a scalable and empirically-grounded simulation engine, it provides a powerful tool for scientific inquiry while demonstrating the practical application of core computer science principles to complex problems.
