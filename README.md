@@ -71,24 +71,25 @@ flowchart TD
     A[Real-World Data] --> B[pre-implementation analysis.py]
     B --> C[Model Parameters]
 
-    A --> D[CONFIG (Configuration)]
+    A --> D[CONFIG Configuration]
     C --> D
 
     D --> E[run_simulation.py]
 
-    E --> F[population.py<br/>Generates Agent Population]
-    E --> G[network.py<br/>Generates Network Topology]
+    E --> F[population.py - Generates Agent Population]
+    E --> G[network.py - Generates Network Topology]
 
-    E --> H[world.py: Simulation Core]
+    E --> H[world.py - Simulation Core]
 
-    H --> I{Python or C++ Path}
+    H --> I{Choose Execution Path}
     I --> J[Python Execution]
     I --> K[C++ Execution]
 
     J --> L[State History]
     K --> L
 
-    L --> M[analyze.py<br/>Visualization & Results]
+    L --> M[analyze.py - Visualization and Results]
+
 
 ```
 
