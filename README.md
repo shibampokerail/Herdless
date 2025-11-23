@@ -1,4 +1,4 @@
-# Diffusioin Ceiling in High-Performance Agent-Based Modeling 
+# Diffusion Ceiling in High-Performance Agent-Based Modeling 
 
 This is not just a simulation, but a scalable, high-performance computational framework for modeling information cascades in complex networks. This project tackles core computer science challenges in algorithmic efficiency, software architecture, and data-driven modeling to build a robust tool for studying emergent social phenomena.
 
